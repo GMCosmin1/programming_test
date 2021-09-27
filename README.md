@@ -25,7 +25,7 @@ docker run -it -p 8080:8080 --rm --name my-test-1 python:latest python -m http.s
 ```
 
 3. Make it at the following url http://localhost:10080 in the browser
-- Portul 10080 este un port unsafe. Pentru a putea sa rulam serverul pe acest port, trebuie sa facem cateva configuratii in browser. Este mai usor sa rulam pe un alt port:
+- Portul 10080 este un port unsafe si a fost inchis de cei de la google. Pentru a duce problema pana la capat o sa accesam alt port:
 ```
 docker run -it -p 10081:8080 --rm --name my-test-1 python:latest python -m http.server 8080
 ```
