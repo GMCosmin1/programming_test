@@ -33,5 +33,5 @@ docker run -it -p 10081:8080 --rm --name my-test-1 python:latest python -m http.
 4. Make it print the contents of a folder from your local machine (any folder)
 - pentru a realiza aceasta cerinta, trebuie sa montam un folder de pe masina locala in container, folosind argumentul mount:
 ```
-docker run -it -p 10081:8080 --mount 'type=bind,source=/home/adrian/Documents/algo,target=/app' --rm --name my-test-1 python:latest python -m http.server 8080
+docker run -it -p 10081:8080 --mount 'type=bind,source=/home/Cosmin/Documents/algo,target=/app' --rm --name my-test-1 python:latest python -m http.server 8080
 ```
