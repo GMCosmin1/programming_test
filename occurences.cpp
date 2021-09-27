@@ -47,7 +47,8 @@ int max_occurences(vector<int> v) {
     return max;
 }
 
-
+        // int-ul a fost folosit doar pentru a verifica ca algoritmul functioneaza
+        // l-am lasat in caz ca se doreste testarea acestuia
 int main() {
 
 
